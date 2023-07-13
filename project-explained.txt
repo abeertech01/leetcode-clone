@@ -1,0 +1,6 @@
+[1] = project setup
+Install next.js app -> configure tailiwnd css -> add custom colors in tailwind config -> cleaning index.tsx with a fresh start with "Hello world" text.
+Added Head in _app.tsx instead of index.tsx.
+Included some necessary png images in the public directory
+
+[2] = Auth
