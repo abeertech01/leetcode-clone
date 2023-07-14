@@ -2,5 +2,9 @@
 Install next.js app -> configure tailiwnd css -> add custom colors in tailwind config -> cleaning index.tsx with a fresh start with "Hello world" text.
 Added Head in _app.tsx instead of index.tsx.
 Included some necessary png images in the public directory
+Change the favicon icon according to the favicon.png file in the public directory
 
 [2] = Auth
+Have src/components/Navbar/Navbar.tsx
+Have boilerplate page of Auth page - pages/auth/index.tsx
+Styling Navbar and placing it in auth page. Then place the slogan image in the auth page after navabr. 'pointer-events-none' and 'select-none' in the classes make sure that nobody can select or click to the image.
