@@ -8,3 +8,19 @@ Change the favicon icon according to the favicon.png file in the public director
 Have src/components/Navbar/Navbar.tsx
 Have boilerplate page of Auth page - pages/auth/index.tsx
 Styling Navbar and placing it in auth page. Then place the slogan image in the auth page after navabr. 'pointer-events-none' and 'select-none' in the classes make sure that nobody can select or click to the image.
+
+[3] = Auth Modal
+components/
+          Modals/
+                AuthModal.tsx
+                Login.tsx
+                ResetPassword.tsx
+                Signup.tsx
+AuthModal design → place AuthModal in auth page after Navbar → div → AuthModal → Login component placed in AuthModal → Login form and styling → Signup component, almost like login component with few changes → ResetPassword component's UI
+install recoil and make `atoms` directory in src directory - RecoilRoot in _app.tsx
+src/
+  atoms/
+   authModalAtom.ts
+In authModalAtom.ts state for auth modal has been placed.
+In the same modal we are gonna have login, signup and resetPassword components by changing the type every time. So, we need a type variable in recoil state for three types: login, signup and forgotPassword. Configurig type in these components in a way so that we can change these types each time we need.
+Made a closeModal hook and used it to close the auth modal. Here is an IMPORTANT NOTE and that is when we close the modal it needs to be type 'login'. So, we mention that in the close modal hook.
