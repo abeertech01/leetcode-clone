@@ -24,3 +24,13 @@ src/
 In authModalAtom.ts state for auth modal has been placed.
 In the same modal we are gonna have login, signup and resetPassword components by changing the type every time. So, we need a type variable in recoil state for three types: login, signup and forgotPassword. Configurig type in these components in a way so that we can change these types each time we need.
 Made a closeModal hook and used it to close the auth modal. Here is an IMPORTANT NOTE and that is when we close the modal it needs to be type 'login'. So, we mention that in the close modal hook.
+
+[4] - Firebase functionalities
+src/
+  firebase/
+        firebase.ts
+Creating a new project on firebase and placing the sdk private stuffs included with the help of env variables.
+Optimization with next.js: if there is an app then getApp, otherwise initialize app.
+installed an npm package called react-firebase-hooks. With the help of this package we get useCreateUserWithEmailAndPassword() hook and using this hook, making the signup process in signup component.
+useSignInWithEmailAndPassword() hook is used to create sign in process like signup process.
+To prevent user entering the auth page when already logged in, used useAuthState() hook and pageLoading useState.
