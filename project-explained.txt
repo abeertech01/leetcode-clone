@@ -34,3 +34,14 @@ Optimization with next.js: if there is an app then getApp, otherwise initialize 
 installed an npm package called react-firebase-hooks. With the help of this package we get useCreateUserWithEmailAndPassword() hook and using this hook, making the signup process in signup component.
 useSignInWithEmailAndPassword() hook is used to create sign in process like signup process.
 To prevent user entering the auth page when already logged in, used useAuthState() hook and pageLoading useState.
+
+[5] - Home page UI
+components/
+        Topbar/
+            Topbar.tsx
+Basic Topbar with premium and signin button.
+src/
+  mockProblems/
+          problems.ts
+Have some mock problems saved in mockProblems folder.
+implement problems table UI in home page
