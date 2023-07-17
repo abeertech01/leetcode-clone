@@ -52,3 +52,6 @@ Topbar's profile picture changes according to account and hovering over the prof
 
 [6] - Logout Functionality
 Logout functionality by useSignOut() hook from react-firebase-hooks module.
+
+[7] - Reset Password Functionality
+reset password functionality done by useSendPasswordResetEmail() hook from react-firebase-hooks module
