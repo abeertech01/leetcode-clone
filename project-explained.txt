@@ -59,3 +59,8 @@ reset password functionality done by useSendPasswordResetEmail() hook from react
 [8] - React Toastify
 install react-toastify
 added a toast for letting people know that forgot password email is sent. Same for login functionality
+
+Image Optimization
+
+[9] - Creating [pid] page and update Topbar
+in the topbar he created a timer with the help of chatgpt. This is an example of how a chatgpt can make life productive.
