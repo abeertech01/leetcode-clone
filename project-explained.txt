@@ -47,3 +47,8 @@ Have some mock problems saved in mockProblems folder.
 implement problems table UI in home page
 create youtube video modal from react-youtube npm package
 Hydration failing error happened when implementing youtube video modal. It happened because of including div tags in tfoot tag. It turned out that div is allowed only in td tag for a table perspective. So I solved in that way.
+
+Topbar's profile picture changes according to account and hovering over the profile picture gets a tooltip of email address.
+
+[6] - Logout Functionality
+Logout functionality by useSignOut() hook from react-firebase-hooks module.
