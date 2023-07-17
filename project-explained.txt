@@ -55,3 +55,7 @@ Logout functionality by useSignOut() hook from react-firebase-hooks module.
 
 [7] - Reset Password Functionality
 reset password functionality done by useSendPasswordResetEmail() hook from react-firebase-hooks module
+
+[8] - React Toastify
+install react-toastify
+added a toast for letting people know that forgot password email is sent. Same for login functionality
