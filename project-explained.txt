@@ -64,3 +64,8 @@ Image Optimization
 
 [9] - Creating [pid] page and update Topbar
 in the topbar he created a timer with the help of chatgpt. This is an example of how a chatgpt can make life productive.
+
+[10] - Creating workspace
+for having splitted sections in the workspace install react-split
+making a code editor replica for react with codemirror npm package with some supporting packages
+packages: @uiw/react-codemirror @codemirror/lang-javascript @uiw/codemirror-theme-vscode
