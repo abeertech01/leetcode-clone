@@ -66,6 +66,32 @@ Image Optimization
 in the topbar he created a timer with the help of chatgpt. This is an example of how a chatgpt can make life productive.
 
 [10] - Creating workspace
-for having splitted sections in the workspace install react-split
+components/
+  Workspace/
+    Playground/
+      PreferenceNav/
+        PreferenceNav.tsx
+      EditorFooter.tsx
+      Playground.tsx
+    ProblemDescription/
+      ProblemDescription.tsx
+    Workspace.tsx
+For having splitted sections in the workspace install react-split
 making a code editor replica for react with codemirror npm package with some supporting packages
 packages: @uiw/react-codemirror @codemirror/lang-javascript @uiw/codemirror-theme-vscode
+
+[11] - 
+src/
+  problems/
+    images/
+    valid-parentheses.ts
+    search-a-2d-matrix.ts
+    jump-game.ts
+    reverse-linked-list.ts
+    two-sum.ts
+  types/
+    problem.ts
+here I have put 5 problems with functionalities to solve those problems. It will match the user's answer.
+Here at this stage we need to render all the problems in the workspace area.
+In rendering the problems we are use SSG so that we can make it fast loading. In SSG the problems will be rendered in the building time. That's how it renders in lightening fast. 
+It gave error because json had function which it can't get in. So made it string by toString()
